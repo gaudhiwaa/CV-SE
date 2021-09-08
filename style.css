@@ -1,0 +1,116 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.paper{
+  background-color: white;
+  display: flex;
+  height: 842px;
+  width: 595px;
+}
+.left-side{
+  display: flex;
+  align-items: flex-start;
+  background-color: black;
+  flex-direction: column;
+  color: white;
+  height: 842px;
+  width: 200px;
+}
+.left-side .profile img{
+  width: 200px;
+}
+.left-side .name{
+  text-align: center;
+}
+.left-side .name h2{
+  margin-top: -10px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.left-side .contact{
+
+  margin-top: 5px;
+}
+.left-side .contact ul{
+  list-style: none;
+}
+.left-side .contact ul li{
+  margin-top: 10px;
+}
+.left-side .contact ul li i{
+  margin-right: 5px;
+  margin-left: -10px;
+}
+.left-side .skill h3{
+  padding-left: 24px;
+}
+.left-side .skill ul{
+  margin-top: -10px;
+}
+.left-side .skill ul li{
+  list-style: none;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.left-side .skill ul li span{
+  background-color: white;
+  margin-top: 10px;
+  width: 150px;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+.left-side .skill ul li sub{
+  background-color: grey;
+  width: 80px;
+  height: 20px;
+  border-radius: 20px;
+  padding-left: 65px;
+  display: flex;
+  align-items: center;
+}
+.left-side .media h3{
+  padding-left: 24px;
+}
+.left-side .media ul li{
+  list-style: none;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.left-side .media ul li i{
+  margin-right: 5px;
+  /* margin-left: -10px; */
+}
+.right-side{
+  display: flex;
+  height: 842px;
+  width: 395px;
+  padding: 18px 24px 24px 18px;
+  flex-direction: column;
+}
+.right-side p{
+  line-height: 20px;
+  text-align: justify;
+}
+.right-side .work-exp h1{
+  margin-top: 5px;
+}
+.right-side .work-exp ul li h4{
+  margin-top: -10px;
+}
+.right-side .work-exp ul li p{
+  margin-top: -10px;
+}
+.right-side .education h1{
+  margin-top: 5px;
+}
+.right-side .award p{
+  font-size: 10px;
+  line-height: 12px;
+}
+.right-side .award p b{
+  font-size: 12px;
+}
